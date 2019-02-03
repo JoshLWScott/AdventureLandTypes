@@ -215,18 +215,18 @@ declare class GameMap {
     monsters: Array<Object>;
     compound: Object;
     data: Object;
-    doors: Array<[]>;
+    doors: Array< Array<any> >; // TODO Figure out what the sub-array needs to be
     drop_norm: number;
     exchange: Object;
     items: Object;
     key: string;
-    merchants: Array<Object>;
+    merchants: Array<object>;
     npcs: Array<Object>;
-    quirks: Array<[]>;
+    quirks: Array< Array<any> >; // TODO Figure out what the sub-array needs to be
     ref: Object;
     u_mid: Array<number>;
     c_mid: Array<number>;
-    spawns: Array<[]>;
+    spawns: Array< Array<any> >; // TODO Figure out what the sub-array needs to be
     transporter: Object;
     upgrade: Object;
 }
